@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root{
+    --darkrasberry: #7c284f;
+    --darkblue: #4356a4;
+    --darkgrey: #645b53;
+    --lightgrey: #a9a4a0;
+    --beige: #f4e6d7;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: var(--beige);
+  }
+  
+  main{
+    margin-inline: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 735px;
+    background: white;
+    padding: 33px 45px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  
+  h2, h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: darkred;
+  }
+  
+  p, li, td{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: var(--lightgrey);
+  }
+  
+  b{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--darkgrey);
+  }
+
+  /* Image */
+  .image{
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .image img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  /* Description */
+  .description h1{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 18px;
+  }
+  
+  /* Preparation */
+  .preparation{
+    background-color: #fef7fa;
+    padding: 20px 30px;
+    border-radius: 15px;
+  }
+  
+  .preparation h3{
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+    color: var(--darkrasberry);
+  }
+  
+  .preparation ul li::marker{
+    color: var(--darkrasberry);
+  }
+  
+  .preparation ul, .ingredients ul, .instructions ol{
+    padding: 0 20px;
+  }
+  
+  .preparation ul li, .ingredients ul li, .instructions ol li{
+    padding-left: 20px;
+    padding-bottom: 8px;
+  }
+  
+  /* Ingredients */
+  .ingredients h2, .instructions h2, .nutrition h2{
+    margin-bottom: 24px;
+  }
+  
+  .ingredients hr, .instructions hr{
+    margin-top: 30px;
+  }
+  
+  /* Instructions */
+  .instructions ol li{
+    padding-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  ul li::marker, ol li::marker{
+    color: darkred;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Nutrition */
+  .nutrition p{
+    margin-bottom: 28px;
+  }
+  
+  .nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .nutrition table tr td{
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  /* Attribution */
+  .attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 50px;
+  }
+  .attribution a { 
+    color: var(--darkblue); 
+  }
+  
+  @media screen and (max-width: 375px) {
+    main{
+      width: 100%;
+      margin: 0;
+    }
+  }
