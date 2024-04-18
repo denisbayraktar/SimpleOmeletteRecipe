@@ -5,7 +5,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://zippy-griffin-842134.netlify.app/)
+- Live Site URL: https://simpleomeletterecipe.netlify.app
 
 
 ### Built with
